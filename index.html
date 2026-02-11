@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Profil Kota Gresik</title>
+  <meta name="description" content="Website profil kota Gresik: sejarah, budaya, pariwisata, kuliner, dan informasi menarik lainnya." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <div class="logo">
+          <img src="img/logo-gresik.png" alt="Logo Kota Gresik" />
+        </div>
+        <span>Kota Gresik</span>
+      </div>
+      <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">☰</button>
+      <nav id="mainNav">
+        <ul class="nav-list">
+          <li><a href="#sejarah">Sejarah</a></li>
+          <li><a href="#budaya">Budaya</a></li>
+          <li><a href="#wisata">Wisata</a></li>
+          <li><a href="#kuliner">Kuliner</a></li>
+          <li><a href="#profil">Profil</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <article id="sejarah">
+        <header>
+          <h1>Gresik: Kota Wali, Kota Industri</h1>
+          <p>Kota Santri yang berkembang menjadi pusat industri di pesisir utara Pulau Jawa.</p>
+        </header>
+
+        <div class="slider-container">
+          <div class="slider">
+            <div class="slide active">
+              <img src="img/pantai-delegan.jpg" alt="Pantai Pasir Putih Delegan Gresik" />
+            </div>
+            <div class="slide">
+              <img src="img/masjid.jpg" alt="Masjid Jami' Gresik" />
+            </div>
+            <div class="slide">
+              <img src="img/alun-alun.jpg" alt="Alun-Alun Gresik" />
+            </div>
+          </div>
+          <button class="slider-btn prev-btn" id="prevBtn" aria-label="Slide sebelumnya">◀</button>
+          <button class="slider-btn next-btn" id="nextBtn" aria-label="Slide berikutnya">▶</button>
+        </div>
+        <div class="slider-indicators" id="sliderIndicators"></div>
+
+        <section>
+          <h2>Sejarah</h2>
+          <p>Gresik merupakan salah satu kota bersejarah di pesisir utara Jawa Timur 
+            yang dikenal sebagai pusat penyebaran agama Islam melalui tokoh penting 
+            seperti Maulana Malik Ibrahim dan Sunan Giri. Sejak abad ke-11, Gresik telah 
+            berkembang menjadi pelabuhan internasional yang ramai dikunjungi pedagang
+            dari Tiongkok, Gujarat, hingga Arab, sehingga menjadikannya sebagai pusat perdagangan 
+            penting di Nusantara.</p>
+            
+          <p>Selain memiliki peran besar dalam sejarah keagamaan dan perdagangan,
+            Gresik juga menjadi pionir industria modern di Indonesia dengan berdirinya pabrik semen pertama,
+            yaitu Semen Gresik, pada tahun 1957. Hingga kini, Gresik terus tumbuh sebagai kota 
+            industri sekaligus menyimpan warisan budaya dan religi yang kuat.</p>
+        </section>
+
+        <section id="budaya">
+          <h2>Budaya dan Tradisi</h2>
+          <p>Gresik memiliki kekayaan budaya yang masih terjaga hingga kini. Beberapa tradisi unggulan termasuk:</p>
+          <ul>
+            <li><strong>Reog Gresik</strong> - Kesenian tradisional yang sering ditampilkan pada acara adat</li>
+            <li><strong>Nyadran</strong> - Tradisi penghormatan kepada leluhur yang dilaksanakan setahun sekali</li>
+            <li><strong>Festival Bandeng</strong> - Event tahunan yang menampilkan olahan bandeng khas Gresik</li>
+            <li><strong>Ziarah Wali</strong> - Tradisi religi mengunjungi makam para wali penyebar Islam</li>
+          </ul>
+        </section>
+
+        <section id="wisata">
+          <h2>Wisata Unggulan</h2>
+          <div class="grid" id="wisataGrid"></div>
+        </section>
+
+        <section id="kuliner">
+          <h2>Kuliner Khas</h2>
+          <div class="grid" id="kulinerGrid"></div>
+        </section>
+      </article>
+
+      <aside id="profil">
+        <section class="card">
+          <h2>Informasi Lainnya</h2>
+          <div class="profile">
+            <div class="avatar">
+              <img src="img/logo-gresik.png" alt="Lambang Kota Gresik" />
+            </div>
+            <div class="bio">
+              <strong>Kabupaten Gresik</strong>
+              <p><small>Bumi Pudak, Kota Santri</small></p>
+              <ul>
+                <li>Provinsi: Jawa Timur</li>
+                <li>Luas Wilayah: ± 1.191 km²</li>
+                <li>Penduduk: ± 1,3 juta jiwa</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2>Agenda Kota</h2>
+          <div class="agenda-list">
+            <div class="agenda-item">
+              <h3>Kontes Bandeng Kawak</h3>
+              <p>Setiap tahun menjelang Hari Raya Idul Fitri</p>
+            </div>
+            <div class="agenda-item">
+              <h3>Haul Sunan Giri</h3>
+              <p>Setiap tahun pada bulan Sya'ban (Kalender Islam)</p>
+            </div>
+            <div class="agenda-item">
+              <h3>Festival Kota Bandar Grissee</h3>
+              <p>Menampilkan pentas seni budaya dan kuliner untuk napak tilas kejayaan masa lalu. </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2>Data Demografi</h2>
+          <div class="demografi">
+            <div class="data-item">
+              <span class="data-label">Laki-laki</span>
+              <span class="data-value">51%</span>
+            </div>
+            <div class="data-item">
+              <span class="data-label">Perempuan</span>
+              <span class="data-value">49%</span>
+            </div>
+            <div class="data-item">
+              <span class="data-label">Usia Produktif</span>
+              <span class="data-value">66%</span>
+            </div>
+          </div>
+        </section>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-info">
+      <p>&#169; <span id="year"></span> Website Kota Gresik - Belajar Dasar Pemrograman Web</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
